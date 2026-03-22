@@ -13,7 +13,7 @@ load_dotenv()
 SPOTIFY_CLIENT_ID = os.getenv('SPOTIFY_CLIENT_ID' )
 SPOTIFY_CLIENT_SECRET = os.getenv('SPOTIFY_CLIENT_SECRET')
 SPOTIFY_REDIRECT_URI = "http://localhost:5000/callback"
-SCOPE = "user-modify-playback-state user-read-playback-state playlist-modify-public playlist-modify-private"
+SCOPE = "define scope"
 
 sp = spotipy.Spotify(auth_manager=SpotifyOAuth(
     client_id=SPOTIFY_CLIENT_ID,
