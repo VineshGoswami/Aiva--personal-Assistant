@@ -6,7 +6,7 @@ import time
 import pyglet
 import google.generativeai as genai
 
-genai.configure(api_key="AIzaSyCJ3g6NZG7Q2NRZv_-4yGxG7oe9GgncUnM")
+genai.configure(api_key="your Api key")
 
 
 PREDEFINED_RESPONSES = {
