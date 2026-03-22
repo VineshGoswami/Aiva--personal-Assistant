@@ -2,7 +2,7 @@ import sys
 import json
 from newsapi import NewsApiClient
 
-newsapi = NewsApiClient(api_key='715a9a5d59f84ab1af30371d25880de3')
+newsapi = NewsApiClient(api_key='your Api key')
 
 
 def fetch_news():
